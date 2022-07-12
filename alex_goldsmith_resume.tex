@@ -1,0 +1,172 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj - modified by Alex Goldsmith
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://linkedin.com/alexander-goldsmith}{\Large Alex Goldsmith}} & Email : \href{mailto:gold.alex.smith@gmail.com}{gold.alex.smith@gmail.com}\\
+  \href{http://linkedin.com/alexander-goldsmith}{http://www.linkedin.com/alexander-goldsmith} & Mobile : +1-8644983481 \\
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Epic}{Madison, WI}
+      {Technical Solutions Engineer}{Dec. 2019 - June 2021}
+      \resumeItemListStart
+        \resumeItem{Customer success}
+          {Supported 6 hospital organizations live on Epic's registration and real-time eligibility applications}
+        \resumeItem{Technical support}
+          {Investigated technical issues encountered by customers via code walkthroughs, application testing, and code debugging. Documented solution and ensured successful resolution of the issue}
+        \resumeItem{Project consulting}
+          {Collaborated with customer IT teams to implement new features and develop specialized workflows}
+        \resumeItem{Incident escalation}
+          {Owned high-impact customer issues from discovery to resolution, including issues within other Epic applications}
+        \resumeItem{Technical documentation} 
+          {Documented customer requirements, technical bugs and broken workflows, application functionality, and user feedback}
+        \resumeItem{Mentorship and advising}
+          {Provided technical expertise to a customer implementation project, while mentoring the customer's long-term support engineer}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Wisconsin-Madison}{Madison, WI}
+      {Professional Capstone Certificate in Computer Sciences}{Dec. 2020 -- present}
+    \resumeSubheading
+      {Clemson University}{Clemson, SC}
+      {Master of Arts in Economics}{Aug. 2018 -- Dec. 2019}
+    \resumeSubheading
+      {Clemson University}{Clemson, SC}
+      {Bachelor of Arts in Economics}{Aug. 2015 -- May. 2018}
+  \resumeSubHeadingListEnd
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Badger Mental Health web and mobile application}
+      {Participated in a team of 3 developers to create a web and mobile application with create/read/update/delete functionality for a course project. Stack included React front-end and NodeJs backend connecting to a document based database (Google Firebase).}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+\section{Skills}
+  \resumeItemListStart
+    \resumeItem{Programming Languages}{C++, Typescript, Python, SQL, MUMPS}
+    \resumeItem{Technologies}{React, Jest, Git, Docker, CMake, RDBMS}
+    \resumeItem{Other Languages}{Spanish: Professional working proficiency. ASL: Elementary proficiency.}
+  \resumeItemListEnd
+
+%-------------------------------------------
+\end{document}

@@ -1,0 +1,40 @@
+From Philip Choniere's LinkedIn
+- At Epic, I'm primarily responsible for the success of the outpatient clinical application of our electronic medical record software used by health systems around the country This requires diagnosing technical and workflow problems, designing & developing creative software solutions, managing projects, advising coworkers and clients, and collaborating with operational stakeholders to improve both patient care and the end user experience. 
+- Diagnose technical software problems, identify and develop creative technical and workflow-based solutions, and manage the implementation of software solutions with health systems’ operational stakeholders across multiple physical locations
+- Design & develop data extraction scripts and security processes to be compliant with national and international regulations
+- Coordinate and lead cross-role teams to promote impactful software features, develop streamlined implementation strategies and tools, create documentation, and evaluate feature usage
+- Debug and write application code and scripts using Caché ObjectScript and SQL
+- Troubleshoot InterSystems Caché relational databases
+- Communicate, manage, and resolve patient safety and financial risk escalations
+- Develop and edit feature documentation for internal and customer audiences
+- Design demos and present on software and workflow solutions to internal and customers audiences on a regular basis
+- Mentor coworkers and advise on customer software implementations
+
+From Shane Casey's LinkedIn
+- A combination of Technical Support and Customer Service, I work with IT teams at hospitals to configure and troubleshoot their Epic software.
+
+From Sydney Miller's LinkedIn
+-Diagnosing problems and implementing solutions in software that impacts 250 million patients around the world
+-Supporting registration workflows for six healthcare organizations across the eastern United States
+-Enthusiastic mentor to new hires
+
+From Kevin Wang's LinkedIn
+- Leveraged technical knowledge to implement patient access and real-time insurance interface modules for Epic’s electronic healthcare record (EHR) software
+- Guided 5 to 20-member project analyst teams and defined long-term operational vision by engaging leadership for 6 health networks across the US
+- Slashed client operating expenses by minimizing uncompensated care to ensure hospital financial viability and continuity of care during COVID crisis
+- Diagnosed over 150 product reliability issues to continue success in complying with Medicaid, Medicare, and HIPAA regulations
+- Achieved certification in seven Epic applications including Prelude (Patient Access), Real-Time (Insurance) Eligibility, Cogito (Reporting), Clarity (ETL), and Caboodle (Data Warehousing)
+
+From Haley Larson's LinkedIn
+- Utilize technical problem solving skills, including code debugging, to deliver technical
+software solutions to customers
+- Thoroughly test solutions to identify risks and ensure robust resolution of customer issues
+- Balance conflicting priorities and deadlines across multiple teams
+- Communicate processes and instructions in both high-level summaries and detailed responses
+to convey solutions to audiences with varying technical backgrounds
+- Manage projects of varying sizes across multiple teams
+
+From Claire Heuckeroth's LinkedIn
+- Helped customers implement and support healthcare software
+- As the electronic authorization area owner acted as in internal expert maintaining documentation, guiding development, and demoing functionality
+- As an upgrade specialized analysed issues, created documentation and tools to help guide customers though the upgrade process
