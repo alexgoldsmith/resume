@@ -40,8 +40,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -59,7 +59,7 @@
     \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-2pt}
 }
 
 \newcommand{\resumeSubheading}[4]{
@@ -67,13 +67,13 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-2pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-2pt}
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -102,20 +102,22 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Epic}{Madison, WI}
-      {Technical Solutions Engineer}{Dec. 2019 - June 2021}
+      {Technical Solutions Engineer}{Dec. 2019 - Jun. 2021}
       \resumeItemListStart
         \resumeItem{Customer success}
-          {Supported 6 hospital organizations live on Epic's registration and real-time eligibility applications}
+          {Ensured continued success of 6 hospital system organizations live on Epic's registration and real-time eligibility applications through dozens of major software upgrades.}
+        \resumeItem{Customer service quality}
+          {Consistently maintained a success rate (greater than 90\%) for First Response Time targets within the top half of the application support team. }
         \resumeItem{Technical support}
-          {Investigated technical issues encountered by customers via code walkthroughs, application testing, and code debugging. Documented solution and ensured successful resolution of the issue}
+          {Investigated techincal bugs encountered by customers via code walkthroughs, application testing, and code debugging. Provided customer-accepted resolution of 100\% of submitted issues.}
         \resumeItem{Project consulting}
-          {Collaborated with customer IT teams to implement new features and develop specialized workflows}
+          {Collaborated with customer IT teams to implement new features and develop specialized workflows.}
         \resumeItem{Incident escalation}
-          {Owned high-impact customer issues from discovery to resolution, including issues within other Epic applications}
+          {Owned high-impact customer issues from discovery to resolution, including issues within other Epic applications.}
         \resumeItem{Technical documentation} 
-          {Documented customer requirements, technical bugs and broken workflows, application functionality, and user feedback}
+          {Documented customer requirements, technical bugs and broken workflows, application functionality, and user feedback.}
         \resumeItem{Mentorship and advising}
-          {Provided technical expertise to a customer implementation project, while mentoring the customer's long-term support engineer}
+          {Provided technical expertise to a customer implementation project, while mentoring the customer's long-term support engineer.}
       \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -128,8 +130,7 @@
     \resumeSubheading
       {Clemson University}{Clemson, SC}
       {Master of Arts in Economics}{Aug. 2018 -- Dec. 2019}
-    \resumeSubheading
-      {Clemson University}{Clemson, SC}
+    \resumeSubSubheading
       {Bachelor of Arts in Economics}{Aug. 2015 -- May. 2018}
   \resumeSubHeadingListEnd
       
@@ -151,20 +152,27 @@
     \resumeSubItem{Badger Mental Health web and mobile application}
       {Participated in a team of 3 developers to create a web and mobile application with create/read/update/delete functionality for a course project. Stack included React front-end and NodeJs backend connecting to a document based database (Google Firebase).}
     \resumeSubItem{Stack Overflow Survey Visualization}
-      {Created a web application for a course project using PyScript, JavaScript, and SQLite. The Web application allowed users to query a database, and subsequently displayed a visualization of the returned results.}
+      {Created a web application for a course project using PyScript, JavaScript, and SQLite. The Web application allowed users to query a database, and subsequently displayed a visualization.}
   \resumeSubHeadingListEnd
 
 %-----------Skills-----------------
-\section{Skills}
+\section{Technical Skills}
   \resumeSubHeadingListStart
     \resumeSubItem{Programming Languages}{C++, Java, MUMPS}
     \resumeSubItem{Scripting Languages}{Python, TypeScript, JavaScript}
     \resumeSubItem{Front-end Frameworks}{React, React-Native, Svelte, Astro}
-    \resumeSubItem{Database Technologies}{SQL, SQLite, MySQL, SQL Server, MongoDB, Firebase, Firestore, Relational and Document Models}
+    \resumeSubItem{Database Technologies}{SQL, SQLite, MySQL, SQL Server, MongoDB, Firebase, Relational \& Document Models}
     \resumeSubItem{Other Technologies}{NodeJS, Jest, Git, Docker, CMake, JSON, HTML, CSS, REST APIs, X12, LaTeX}
     \resumeSubItem{Cloud Platforms}{Google Cloud Platform (GCP), Microsoft Azure}
     \resumeSubItem{Other Languages}{Spanish: Limited working proficiency. ASL: Elementary proficiency.}
   \resumeSubHeadingListEnd
 
+\section{Soft Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Leadership skills}{Competent and flexible team-leadership via carefully considered emotional intelligence.}
+    \resumeSubItem{Organizational skills}{Capable time management through careful single-source of truth calendar use. Reliable task management with intelligent prioritiztion.}
+    \resumeSubItem{Communication skills}{Skilled written (email, support tickets, technical documentation) and interpersonal communication.}
+    \resumeSubItem{Creative skills}{Adept innovative and entreprenurial skills combined with problem-solving acumen.}
+  \resumeSubHeadingListEnd
 %-------------------------------------------
 \end{document}
