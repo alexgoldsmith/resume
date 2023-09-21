@@ -4,14 +4,12 @@
     "work": "Work Experience",
     "education": "Education",
     "skills": "Skills",
-    "awards": "",
     "projects": "Projects"
   },
   "basics": {
     "name": "Alex Goldsmith",
     "email": "gold.alex.smith@gmail.com",
-    "phone": "8644983481",
-    "website": "alexgoldsmith.me",
+    "phone": "608-622-7567",
     "location": {
       "address": "Madison, Wisconsin"
     }
@@ -20,8 +18,8 @@
     {
       "institution": "University of Wisconsin - Madison",
       "location": "Madison, Wisconsin",
-      "endDate": "August 2022",
       "startDate": "Dec 2020",
+      "endDate": "August 2022",
       "studyType": "Coursework in Computer Science"
     },
     {
@@ -29,7 +27,6 @@
       "location": "Clemson, South Carolina",
       "studyType": "MA",
       "area": "Economics",
-      "gpa": "3.49",
       "startDate": "Aug 2018",
       "endDate": "Aug 2019"
     },
@@ -38,26 +35,28 @@
       "location": "Clemson, South Carolina",
       "studyType": "BA",
       "area": "Economics",
-      "gpa": "3.51",
       "startDate": "Aug 2015",
       "endDate": "May 2018"
     }
   ],
   "work": [
     {
+      "position": "Technical Solutions Engineer",
+      "company": "SpectrumAi",
       "location": "Madison, Wisconsin",
-      "position": "Full Stack Developer",
-      "website": "",
-      "startDate": "Aug 2022",
+      "startDate": "Jan 2023",
+      "endDate": "June 2023",
       "highlights": [
-        "Currently developing user portal for a client's existing WordPress site.",
-        "Developed pages and UI components for company website using Next.js, React, and Tailwind.",
-        "Designed digital graphics appearing on the website, including logos and illustrations."
-      ],
-      "company": "GreenShell, LLC",
-      "endDate": "Present"
+        "Brought the company's first customer live within a week of hiring.",
+        "Owned and resolved customer issues from first contact through to code deployment."
+      ]
     },
     {
+      "company": "Epic Systems Corporation",
+      "position": "Technical Solutions Engineer",
+      "location": "Madison, Wisconsin",
+      "startDate": "Dec 2019",
+      "endDate": "Jun 2021",
       "highlights": [
         "Ensured continued success of 6 hospital system organizations live on Epic’s registration and real-time eligibility applications through dozens of major software upgrades.",
         "Consistently maintained a success rate (greater than 90%) for First Response Time targets within the top half of the application support team.",
@@ -65,31 +64,20 @@
         "Owned high-impact customer issues from discovery to resolution, including issues within other Epic applications.",
         "Documented customer requirements, technical bugs and broken workflows, application functionality, and user feedback.",
         "Provided technical expertise to a customer implementation project, while mentoring the customer’s long-term support engineer."
-      ],
-      "company": "Epic Systems Corporation",
-      "position": "Technical Solutions Engineer",
-      "location": "Madison, Wisconsin",
-      "startDate": "Dec 2019",
-      "endDate": "Jun 2021"
+      ]
     },
     {
-      "highlights": [
-        ""
-      ]
+      "highlights": [""]
     }
   ],
   "skills": [
     {
       "name": "Programming Languages",
       "level": "",
-      "keywords": [
-        "Python, TypeScript, JavaScript, C++, Java, MUMPS"
-      ]
+      "keywords": ["Python, TypeScript, JavaScript, C++, Java, MUMPS"]
     },
     {
-      "keywords": [
-        "React, React-Native, Svelte, Astro, Remix"
-      ],
+      "keywords": ["React, React-Native, Svelte, Astro, Remix"],
       "name": "Front-end Frameworks"
     },
     {
@@ -99,9 +87,7 @@
       "name": "Database Technologies"
     },
     {
-      "keywords": [
-        "Google Cloud Platform (GCP), Microsoft Azure"
-      ],
+      "keywords": ["Google Cloud Platform (GCP), Microsoft Azure"],
       "name": "Cloud Platforms"
     },
     {
@@ -117,9 +103,7 @@
       "name": "Leadership"
     },
     {
-      "keywords": [
-        "Capable task and time management"
-      ],
+      "keywords": ["Capable task and time management"],
       "name": "Organization"
     },
     {
@@ -137,25 +121,18 @@
   ],
   "projects": [
     {
-      "name": "Developer blog",
-      "url": "https://alexander.me",
-      "keywords": [
-        "Astro.js"
-      ],
-      "description": "Personal site hosting my resume, featured projects, and a blog"
+      "name": "ActivityPub Server",
+      "keywords": ["Nodejs, Qwik"],
+      "description": "Web server implementing ActivityPub and Mastodon protocols as well as web client built with Qwik"
     },
     {
-      "keywords": [
-        "React-Native, Expo, Jest, Google Firebase"
-      ],
-      "description": "Participated in a team of 3 developers to create a web and mobile application with create/read/update/delete functionality for a course project. Stack included React front-end and NodeJs backend connecting to a document based database.",
       "name": "Badger Mental Health",
+      "keywords": ["React-Native, Expo, Jest, Google Firebase"],
+      "description": "Participated in a team of 3 developers to create a web and mobile application with create/read/update/delete functionality for a course project. Stack included React front-end and NodeJs backend connecting to a document based database.",
       "url": "https://github.com/alexgoldsmith/badgermentalhealth"
     },
     {
-      "keywords": [
-        "JavaScript, PyScript, Python, SQLite"
-      ],
+      "keywords": ["JavaScript, PyScript, Python, SQLite"],
       "name": "Stack Overflow Survey Visualization",
       "description": "Created a web application for a course project using PyScript, JavaScript, and SQLite. The Web application allowed users to query a database, and subsequently displayed a visualization."
     }
