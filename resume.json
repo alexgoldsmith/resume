@@ -10,6 +10,7 @@
     "name": "Alex Goldsmith",
     "email": "gold.alex.smith@gmail.com",
     "phone": "608-622-7567",
+    "website": "https://www.linkedin.com/in/alexander-goldsmith/",
     "location": {
       "address": "Madison, Wisconsin"
     }
@@ -39,6 +40,24 @@
       "endDate": "May 2018"
     }
   ],
+     {
+      "position": "Volunteer Code Contributer for freeCodeCamp",
+      "location": "Madison, Wisconsin",
+      "startDate": "July 2025",
+      "endDate": "Ongoing",
+      "highlights": [
+        "Authored four pull requests accepted into codebase.",
+      ]
+    },
+     {
+      "position": "Career Break",
+      "location": "Madison, Wisconsin",
+      "startDate": "July 2023",
+      "endDate": "May 2025",
+      "highlights": [
+        "Career break to recover from extended illness.",
+      ]
+    },
   "work": [
     {
       "position": "Technical Solutions Engineer",
@@ -49,8 +68,8 @@
       "highlights": [
         "Managed go-live and software support for the firm's first customer.",
         "Owned and resolved customer issues from issue discovery through to code deployment.",
-        "Resolved technical bugs via troubleshooting, design, implementation, testing, and deployment steps",
-        "Developed and maintained multiple systems integration interfaces."
+        "Resolved bugs in react+htmx frontend and django+postgres backend via troubleshooting, design, implementation, testing, and deployment steps.",
+        "Developed and maintained multiple systems integration interfaces using javascript and Qvera."
       ]
     },
     {
@@ -116,11 +135,6 @@
     }
   ],
   "projects": [
-    {
-      "name": "ActivityPub Server",
-      "keywords": ["Nodejs, Qwik"],
-      "description": "Web server implementing ActivityPub and Mastodon protocols as well as web client built with Qwik"
-    },
     {
       "name": "Badger Mental Health",
       "keywords": ["React-Native, Expo, Jest, Google Firebase"],
